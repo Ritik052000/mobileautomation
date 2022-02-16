@@ -1,0 +1,74 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 48.512 s <<< FAILURE! - in TestSuite
+loginAppcoa(Mobile.TestLogin)  Time elapsed: 12.028 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ritik-Latitude-3410', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-49-generic', java.version: '11.0.14'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {adbExecTimeout: 25000, app: /home/ritik/Downloads/relea..., appActivity: com.consumer.consumerApp.mo..., appPackage: com.bac.consumer, appWaitDuration: 5000, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {adbExecTimeout: 25000, app: /home/ritik/Downloads/relea..., appActivity: com.consumer.consumerApp.mo..., appWaitDuration: 5000, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Android Emulator, fullReset: true, platformName: android, udid: emulator-5554, uiautomator2ServerLaunchTimeout: 80000}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 66, takesScreenshot: true, udid: emulator-5554, uiautomator2ServerLaunchTimeout: 80000, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ca85c25f-8ab7-4059-9686-a12145f803e1
+*** Element info: {Using=xpath, value=//*[contains(@resource-id,':id/email')]}
+	at Mobile.TestLogin.loginAppcoa(TestLogin.java:117)
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ritik-Latitude-3410', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-49-generic', java.version: '11.0.14'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {adbExecTimeout: 25000, app: /home/ritik/Downloads/relea..., appActivity: com.consumer.consumerApp.mo..., appPackage: com.bac.consumer, appWaitDuration: 5000, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {adbExecTimeout: 25000, app: /home/ritik/Downloads/relea..., appActivity: com.consumer.consumerApp.mo..., appWaitDuration: 5000, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Android Emulator, fullReset: true, platformName: android, udid: emulator-5554, uiautomator2ServerLaunchTimeout: 80000}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 66, takesScreenshot: true, udid: emulator-5554, uiautomator2ServerLaunchTimeout: 80000, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ca85c25f-8ab7-4059-9686-a12145f803e1
+*** Element info: {Using=xpath, value=//*[contains(@resource-id,':id/email')]}
+	at Mobile.TestLogin.loginAppcoa(TestLogin.java:117)
+
+addVehicle(Mobile.TestLogin)  Time elapsed: 0.038 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ritik-Latitude-3410', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-49-generic', java.version: '11.0.14'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {adbExecTimeout: 25000, app: /home/ritik/Downloads/relea..., appActivity: com.consumer.consumerApp.mo..., appPackage: com.bac.consumer, appWaitDuration: 5000, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {adbExecTimeout: 25000, app: /home/ritik/Downloads/relea..., appActivity: com.consumer.consumerApp.mo..., appWaitDuration: 5000, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Android Emulator, fullReset: true, platformName: android, udid: emulator-5554, uiautomator2ServerLaunchTimeout: 80000}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 66, takesScreenshot: true, udid: emulator-5554, uiautomator2ServerLaunchTimeout: 80000, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ca85c25f-8ab7-4059-9686-a12145f803e1
+*** Element info: {Using=xpath, value=//*[contains(@resource-id,':id/iv_menu')]}
+	at Mobile.TestLogin.addVehicle(TestLogin.java:141)
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ritik-Latitude-3410', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-49-generic', java.version: '11.0.14'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {adbExecTimeout: 25000, app: /home/ritik/Downloads/relea..., appActivity: com.consumer.consumerApp.mo..., appPackage: com.bac.consumer, appWaitDuration: 5000, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {adbExecTimeout: 25000, app: /home/ritik/Downloads/relea..., appActivity: com.consumer.consumerApp.mo..., appWaitDuration: 5000, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Android Emulator, fullReset: true, platformName: android, udid: emulator-5554, uiautomator2ServerLaunchTimeout: 80000}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 66, takesScreenshot: true, udid: emulator-5554, uiautomator2ServerLaunchTimeout: 80000, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ca85c25f-8ab7-4059-9686-a12145f803e1
+*** Element info: {Using=xpath, value=//*[contains(@resource-id,':id/iv_menu')]}
+	at Mobile.TestLogin.addVehicle(TestLogin.java:141)
+
+startExtendStopSession(Mobile.TestLogin)  Time elapsed: 5.066 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: 'GET /window/current/size' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ritik-Latitude-3410', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-49-generic', java.version: '11.0.14'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {adbExecTimeout: 25000, app: /home/ritik/Downloads/relea..., appActivity: com.consumer.consumerApp.mo..., appPackage: com.bac.consumer, appWaitDuration: 5000, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {adbExecTimeout: 25000, app: /home/ritik/Downloads/relea..., appActivity: com.consumer.consumerApp.mo..., appWaitDuration: 5000, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Android Emulator, fullReset: true, platformName: android, udid: emulator-5554, uiautomator2ServerLaunchTimeout: 80000}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 66, takesScreenshot: true, udid: emulator-5554, uiautomator2ServerLaunchTimeout: 80000, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ca85c25f-8ab7-4059-9686-a12145f803e1
+	at Mobile.TestLogin.startExtendStopSession(TestLogin.java:176)
+
+deleteVehicle(Mobile.TestLogin)  Time elapsed: 2.033 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ritik-Latitude-3410', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-49-generic', java.version: '11.0.14'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {adbExecTimeout: 25000, app: /home/ritik/Downloads/relea..., appActivity: com.consumer.consumerApp.mo..., appPackage: com.bac.consumer, appWaitDuration: 5000, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {adbExecTimeout: 25000, app: /home/ritik/Downloads/relea..., appActivity: com.consumer.consumerApp.mo..., appWaitDuration: 5000, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Android Emulator, fullReset: true, platformName: android, udid: emulator-5554, uiautomator2ServerLaunchTimeout: 80000}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 66, takesScreenshot: true, udid: emulator-5554, uiautomator2ServerLaunchTimeout: 80000, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ca85c25f-8ab7-4059-9686-a12145f803e1
+*** Element info: {Using=xpath, value=//*[contains(@resource-id,':id/iv_menu')]}
+	at Mobile.TestLogin.deleteVehicle(TestLogin.java:158)
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ritik-Latitude-3410', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-49-generic', java.version: '11.0.14'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {adbExecTimeout: 25000, app: /home/ritik/Downloads/relea..., appActivity: com.consumer.consumerApp.mo..., appPackage: com.bac.consumer, appWaitDuration: 5000, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {adbExecTimeout: 25000, app: /home/ritik/Downloads/relea..., appActivity: com.consumer.consumerApp.mo..., appWaitDuration: 5000, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: Android Emulator, fullReset: true, platformName: android, udid: emulator-5554, uiautomator2ServerLaunchTimeout: 80000}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 66, takesScreenshot: true, udid: emulator-5554, uiautomator2ServerLaunchTimeout: 80000, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ca85c25f-8ab7-4059-9686-a12145f803e1
+*** Element info: {Using=xpath, value=//*[contains(@resource-id,':id/iv_menu')]}
+	at Mobile.TestLogin.deleteVehicle(TestLogin.java:158)
+
